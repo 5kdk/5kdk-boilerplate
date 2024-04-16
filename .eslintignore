@@ -1,2 +1,5 @@
 next.config.mjs
 /next.config.mjs
+yarn.lock
+.yarn
+.pnp.*
