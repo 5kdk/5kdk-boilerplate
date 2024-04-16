@@ -40,6 +40,8 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.12.7"],\
           ["@types/react", "npm:18.2.79"],\
           ["@types/react-dom", "npm:18.2.25"],\
+          ["class-variance-authority", "npm:0.7.0"],\
+          ["clsx", "npm:2.1.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:4523deb2ab4b7c43569e7fafb63f9c20e2227c269ad9b1c1c4f488611267c5fe2f3ee1a0295c9129e4075da98154a131b637c72c7deb19eeb8c8c8385eca2422#npm:14.2.1"],\
           ["eslint-config-prettier", "virtual:4523deb2ab4b7c43569e7fafb63f9c20e2227c269ad9b1c1c4f488611267c5fe2f3ee1a0295c9129e4075da98154a131b637c72c7deb19eeb8c8c8385eca2422#npm:9.1.0"],\
@@ -53,6 +55,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:8b1f00af098f98dfcc93f31138cf7704c63b422f68386a7c39fc4c834e7d17db3924824901cd994c663135395060983d441b2cb6a33451492b9a212c149e0f1f#npm:18.2.0"],\
           ["storybook", "npm:8.0.8"],\
+          ["tailwind-merge", "npm:2.2.2"],\
           ["tailwindcss", "npm:3.4.3"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
           ["webpack", "virtual:4523deb2ab4b7c43569e7fafb63f9c20e2227c269ad9b1c1c4f488611267c5fe2f3ee1a0295c9129e4075da98154a131b637c72c7deb19eeb8c8c8385eca2422#npm:5.91.0"]\
@@ -79,6 +82,8 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.12.7"],\
           ["@types/react", "npm:18.2.79"],\
           ["@types/react-dom", "npm:18.2.25"],\
+          ["class-variance-authority", "npm:0.7.0"],\
+          ["clsx", "npm:2.1.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:4523deb2ab4b7c43569e7fafb63f9c20e2227c269ad9b1c1c4f488611267c5fe2f3ee1a0295c9129e4075da98154a131b637c72c7deb19eeb8c8c8385eca2422#npm:14.2.1"],\
           ["eslint-config-prettier", "virtual:4523deb2ab4b7c43569e7fafb63f9c20e2227c269ad9b1c1c4f488611267c5fe2f3ee1a0295c9129e4075da98154a131b637c72c7deb19eeb8c8c8385eca2422#npm:9.1.0"],\
@@ -92,6 +97,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:8b1f00af098f98dfcc93f31138cf7704c63b422f68386a7c39fc4c834e7d17db3924824901cd994c663135395060983d441b2cb6a33451492b9a212c149e0f1f#npm:18.2.0"],\
           ["storybook", "npm:8.0.8"],\
+          ["tailwind-merge", "npm:2.2.2"],\
           ["tailwindcss", "npm:3.4.3"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
           ["webpack", "virtual:4523deb2ab4b7c43569e7fafb63f9c20e2227c269ad9b1c1c4f488611267c5fe2f3ee1a0295c9129e4075da98154a131b637c72c7deb19eeb8c8c8385eca2422#npm:5.91.0"]\
@@ -7324,6 +7330,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["class-variance-authority", [\
+      ["npm:0.7.0", {\
+        "packageLocation": "./.yarn/cache/class-variance-authority-npm-0.7.0-1a63840197-e11c57edf4.zip/node_modules/class-variance-authority/",\
+        "packageDependencies": [\
+          ["class-variance-authority", "npm:0.7.0"],\
+          ["clsx", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["clean-css", [\
       ["npm:5.3.3", {\
         "packageLocation": "./.yarn/cache/clean-css-npm-5.3.3-d2bb553a94-381de7523e.zip/node_modules/clean-css/",\
@@ -7418,6 +7434,22 @@ const RAW_RUNTIME_STATE =
           ["is-plain-object", "npm:2.0.4"],\
           ["kind-of", "npm:6.0.3"],\
           ["shallow-clone", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["clsx", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "./.yarn/cache/clsx-npm-2.0.0-afafbbe44a-c09f43b314.zip/node_modules/clsx/",\
+        "packageDependencies": [\
+          ["clsx", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.1.0", {\
+        "packageLocation": "./.yarn/cache/clsx-npm-2.1.0-29d286e1de-c09c00ad14.zip/node_modules/clsx/",\
+        "packageDependencies": [\
+          ["clsx", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -15555,6 +15587,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-6c40323407.zip/node_modules/supports-preserve-symlinks-flag/",\
         "packageDependencies": [\
           ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tailwind-merge", [\
+      ["npm:2.2.2", {\
+        "packageLocation": "./.yarn/cache/tailwind-merge-npm-2.2.2-c7cbfe5f3b-68a5e19984.zip/node_modules/tailwind-merge/",\
+        "packageDependencies": [\
+          ["tailwind-merge", "npm:2.2.2"],\
+          ["@babel/runtime", "npm:7.24.4"]\
         ],\
         "linkType": "HARD"\
       }]\
