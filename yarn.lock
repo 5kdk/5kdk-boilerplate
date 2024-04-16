@@ -15,6 +15,8 @@ __metadata:
     "@storybook/addon-links": "npm:^8.0.8"
     "@storybook/addon-onboarding": "npm:^8.0.8"
     "@storybook/blocks": "npm:^8.0.8"
+    "@storybook/client-logger": "npm:^8.0.8"
+    "@storybook/core-events": "npm:^8.0.8"
     "@storybook/nextjs": "npm:^8.0.8"
     "@storybook/react": "npm:^8.0.8"
     "@storybook/test": "npm:^8.0.8"
@@ -36,6 +38,7 @@ __metadata:
     storybook: "npm:^8.0.8"
     tailwindcss: "npm:^3.4.1"
     typescript: "npm:^5"
+    webpack: "npm:^5.91.0"
   languageName: unknown
   linkType: soft
 
@@ -2522,7 +2525,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/client-logger@npm:8.0.8":
+"@storybook/client-logger@npm:8.0.8, @storybook/client-logger@npm:^8.0.8":
   version: 8.0.8
   resolution: "@storybook/client-logger@npm:8.0.8"
   dependencies:
@@ -2610,7 +2613,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/core-events@npm:8.0.8":
+"@storybook/core-events@npm:8.0.8, @storybook/core-events@npm:^8.0.8":
   version: 8.0.8
   resolution: "@storybook/core-events@npm:8.0.8"
   dependencies:
@@ -3437,9 +3440,9 @@ __metadata:
   linkType: hard
 
 "@types/qs@npm:*, @types/qs@npm:^6.9.5":
-  version: 6.9.14
-  resolution: "@types/qs@npm:6.9.14"
-  checksum: 10c0/11ad1eb7f6d7c216002789959d88acc7c43f72854fa4335f01de0df41b4c4024668dace8a37ba12270314345ede0ec6b07f93053a45e7bd4cd7318a3dcf0b6b8
+  version: 6.9.15
+  resolution: "@types/qs@npm:6.9.15"
+  checksum: 10c0/49c5ff75ca3adb18a1939310042d273c9fc55920861bd8e5100c8a923b3cda90d759e1a95e18334092da1c8f7b820084687770c83a1ccef04fb2c6908117c823
   languageName: node
   linkType: hard
 
@@ -3460,12 +3463,12 @@ __metadata:
   linkType: hard
 
 "@types/react@npm:*, @types/react@npm:^16.8.0 || ^17.0.0 || ^18.0.0, @types/react@npm:^18":
-  version: 18.2.78
-  resolution: "@types/react@npm:18.2.78"
+  version: 18.2.79
+  resolution: "@types/react@npm:18.2.79"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/5eb8e1dd98c29aeddf40b90f466d1a9ce83b113d42a096633d632b834e7ae9821f24ba7999928de9d98cca37764532a7ea35355a8103a377d8baa750f1841b5c
+  checksum: 10c0/c8a8a005d8830a48cc1ef93c3510c4935a2a03e5557dbecaa8f1038450cbfcb18eb206fa7fba7077d54b8da21faeb25577e897a333392770a7797f625b62c78a
   languageName: node
   linkType: hard
 
@@ -5973,9 +5976,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.668":
-  version: 1.4.736
-  resolution: "electron-to-chromium@npm:1.4.736"
-  checksum: 10c0/f3acb515dcb9333b318f9a8ee80a0c3975162da6cc45d9c00152e0de7004b2bfe1246fe6cdf0c41a1b7016780bd4324aff848830aba4227cb55480c1aa32d248
+  version: 1.4.737
+  resolution: "electron-to-chromium@npm:1.4.737"
+  checksum: 10c0/af407082035aac17e1c4c99b1bd44f6b4dc359c2be538d04508c7a4013badd894c6fc79333c7d80e2de19baac4e9da6061b95b09765868c5278180f02dfe31c1
   languageName: node
   linkType: hard
 
@@ -9392,11 +9395,11 @@ __metadata:
   linkType: hard
 
 "node-abi@npm:^3.3.0":
-  version: 3.57.0
-  resolution: "node-abi@npm:3.57.0"
+  version: 3.58.0
+  resolution: "node-abi@npm:3.58.0"
   dependencies:
     semver: "npm:^7.3.5"
-  checksum: 10c0/8d78542e39a3c49ac476d12c70ef0366f26a40a215af44498656e75fc85e5646309765a3277e1cbb2ec40283a9e86f7aefcdd699e30576c582f6bb931e6c802b
+  checksum: 10c0/1e46c48598852eef976fcf772ed83dd90dec06c2251f00bee341a235c494b3116d408810aae3c2fdbb8c228953310034fc0c66c0abdfe42b5d5df276e79f0ee2
   languageName: node
   linkType: hard
 
@@ -10350,8 +10353,8 @@ __metadata:
   linkType: hard
 
 "prettier-plugin-tailwindcss@npm:^0.5.13":
-  version: 0.5.13
-  resolution: "prettier-plugin-tailwindcss@npm:0.5.13"
+  version: 0.5.14
+  resolution: "prettier-plugin-tailwindcss@npm:0.5.14"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
@@ -10400,7 +10403,7 @@ __metadata:
       optional: true
     prettier-plugin-svelte:
       optional: true
-  checksum: 10c0/017e85276952c0110a11c5bf114781c006f1335be29944daa7c5210d81168467efc9d1d212d6ac13ff7a30b2ec30de90619dbe0bf96f61d9b0dd510bf5841a02
+  checksum: 10c0/9857873cb8cb0d9b7b895806e7f6265617a08805691125d282767dffb1cb3d2c4c662f2b9168ef391edc40dff1b81beb99eee488f96544e01b8924db694f2299
   languageName: node
   linkType: hard
 
@@ -12898,7 +12901,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5":
+"webpack@npm:5, webpack@npm:^5.91.0":
   version: 5.91.0
   resolution: "webpack@npm:5.91.0"
   dependencies:
