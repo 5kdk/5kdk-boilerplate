@@ -10,7 +10,7 @@ function getAbsolutePath(value: string): any {
   return dirname(require.resolve(join(value, 'package.json')));
 }
 const config: StorybookConfig = {
-  stories: ['../stories/**/*.mdx', '../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
+  stories: ['../src/shared/ui/**/*.mdx', '../src/shared/ui/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
     getAbsolutePath('@storybook/addon-onboarding'),
     getAbsolutePath('@storybook/addon-links'),
@@ -22,9 +22,6 @@ const config: StorybookConfig = {
     name: getAbsolutePath('@storybook/nextjs'),
     options: {},
   },
-  docs: {
-    autodocs: 'tag',
-  },
-  staticDirs: ['..\\public'],
+  staticDirs: ['../public'],
 };
 export default config;
